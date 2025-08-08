@@ -1,0 +1,51 @@
+package java3;
+import java.util.Scanner;
+public class testprogram {
+	public static void main(String[]args) {
+		Scanner scan=new Scanner(System.in);
+		int choice;
+		do {
+			System.out.println("enter marks(0-100):");
+			int marks=scan.nextInt();
+			int gradecategory;
+			if(marks>=90 && marks<=100) {
+				gradecategory=1;
+			}else if(marks>=75 && marks<=90) {
+					gradecategory=2;
+			}else if(marks>=50 && marks<=75) {
+						gradecategory=3;	
+			}else if(marks>=35 && marks<=50) {
+							gradecategory=4;
+			}else {
+				gradecategory=5;
+			}
+			switch(gradecategory) {
+			case 1:
+				System.out.println("grade:A+(excellent)");
+				break;
+			case 2:
+				System.out.println("grade:A(very good)");
+				break;
+			case 3:
+				System.out.println("grade:B+(good)");
+				break;
+			case 4:
+				System.out.println("grade:B(pass)");
+				break;
+			case 5:
+				System.out.println("grade:C(fail)");
+				break;
+				default:
+					System.out.println("invalid mark");
+				}
+			choice=scan.nextInt();
+
+					}
+		while(choice==1);
+		scan.close();
+		
+			}
+
+	}
+
+
