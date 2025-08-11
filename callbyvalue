@@ -1,0 +1,17 @@
+package java1;
+
+
+public class passbyvalue {
+	int b=40;
+	int a=20;
+	public static void area(int a) {
+		System.out.println( a);
+		int b=40;
+	}
+	public static void main (String[]args) {
+		passbyvalue a1=new passbyvalue();
+		int a=20;
+		area(a1.a);
+	}
+
+}
