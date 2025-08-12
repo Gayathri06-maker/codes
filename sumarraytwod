@@ -1,0 +1,22 @@
+package java3;
+
+public class sumarray {
+	public static void main(String[]args) {
+		int [] []a= {{06,10,20,05},
+				{05,20,10,06},
+				{10,05,06,20},
+				{20,06,05,10}
+		        };
+		        int total=0;
+		for(int i=0;i<a.length;i++) {
+			for(int j=0;j<a.length;j++) {
+				total=total+a[i][j];
+				
+			}
+			}
+			
+				System.out.print(total);
+				
+	
+	}
+}
