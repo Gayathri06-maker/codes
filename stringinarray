@@ -1,0 +1,25 @@
+package java3;
+
+public class stringinarray {
+	public static void main(String[]args) {
+		String[]  []a= {{"burger","noodles","briyani","chapathi"},
+				        {"chapathi","briyani","noodles","burger"},
+				        {"noodles","briyani","chapathi","burger"},
+				        {"briyani","chapathi","burger","noodles"}};
+		 int count=1;
+		 for(int i=0;i<a.length;i++) {
+				for(int j=0;j<a.length;j++) {
+					System.out.print(count+";"+a[i][j]);
+					count++;
+					
+					
+
+					
+					
+				
+				}	
+		}
+	}
+
+}
+	
