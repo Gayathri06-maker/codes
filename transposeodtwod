@@ -1,0 +1,17 @@
+package java3;
+
+public class transposeoftwod {
+	public static void main(String[]args) {
+		int [] []a= {{06,10,20,05},
+				{05,20,10,06},
+				{10,05,06,20},
+				{20,06,05,10}
+		        };
+		for(int i=0;i<a.length;i++) {
+			for(int j=0;j<a.length;j++) {
+				System.out.print(a[j][i]+"\t");
+			}
+		}
+	}
+				
+}
