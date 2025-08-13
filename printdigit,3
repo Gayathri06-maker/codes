@@ -1,0 +1,26 @@
+package java3;
+import java.util.Scanner;
+public class printdigit {
+	public static void main(String[]args) {
+		
+	
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter a string:");
+		String a=scan.nextLine();
+		String b="";
+		for(int i=0;i<a.length();i++) {
+			
+		
+			char ch=a.charAt(i);
+		
+			if(ch>='a'&& ch<='z'){
+				b+=ch;
+			}
+			}
+			System.out.println("enter the words:"+b);
+
+}
+}
+enter a string:
+1avaprogram5
+enter the words:avaprogram
